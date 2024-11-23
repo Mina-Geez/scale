@@ -1,1 +1,1 @@
-// Custom JavaScript for Scale Integration (Empty for now)
+// JavaScript for Scale Integration
