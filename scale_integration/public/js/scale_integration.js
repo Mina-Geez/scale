@@ -1,1 +1,1 @@
-// JavaScript for Scale Integration
+// JavaScript placeholder for Scale Integration
