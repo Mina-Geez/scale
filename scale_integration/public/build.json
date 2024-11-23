@@ -1,0 +1,11 @@
+
+{
+    "scale_integration": {
+        "js": [
+            "public/js/scale_integration.js"
+        ],
+        "css": [
+            "public/css/scale_integration.css"
+        ]
+    }
+}
