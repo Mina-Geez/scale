@@ -1,0 +1,16 @@
+[project]
+name = "scale"
+description = " App to accomadate Weighing scale barcode with ERPNext POS"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = [ "version",]
+dependencies = [ "frappe>=15.0.0", "erpnext>=15.0.0",]
+[[project.authors]]
+name = "ERPGulf"
+email = "support@ERPGUlf.com"
+
+[build-system]
+requires = [ "flit_core >=3.4,<4",]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]

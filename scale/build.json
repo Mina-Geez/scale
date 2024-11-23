@@ -1,7 +1,0 @@
-
-{
-    "scale_integration": {
-        "js": ["public/js/dummy.js"],
-        "css": ["public/css/dummy.css"]
-    }
-}
