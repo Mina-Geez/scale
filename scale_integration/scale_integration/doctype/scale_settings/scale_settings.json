@@ -1,0 +1,61 @@
+
+{
+    "doctype": "DocType",
+    "name": "Scale Settings",
+    "module": "Scale Integration",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "prefix",
+            "fieldtype": "Data",
+            "label": "Scale Prefix",
+            "reqd": 1,
+            "description": "The prefix that identifies scale-generated barcodes"
+        },
+        {
+            "fieldname": "prefix_length",
+            "fieldtype": "Int",
+            "label": "Prefix Length",
+            "reqd": 1,
+            "default": 2,
+            "description": "The number of characters in the prefix"
+        },
+        {
+            "fieldname": "item_code_start",
+            "fieldtype": "Int",
+            "label": "Item Code Starting Digit",
+            "reqd": 1,
+            "description": "The position where the item code starts in the barcode"
+        },
+        {
+            "fieldname": "item_code_length",
+            "fieldtype": "Int",
+            "label": "Item Code Length",
+            "reqd": 1,
+            "description": "The number of characters in the item code"
+        },
+        {
+            "fieldname": "weight_start",
+            "fieldtype": "Int",
+            "label": "Weight Starting Digit",
+            "reqd": 1,
+            "description": "The position where the weight starts in the barcode"
+        },
+        {
+            "fieldname": "weight_length",
+            "fieldtype": "Int",
+            "label": "Weight Length",
+            "reqd": 1,
+            "description": "The number of characters in the weight portion of the barcode"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}
